@@ -59,9 +59,9 @@ void main(List<String> args) {
   }
 
   // Contoh
-  if (a is int) {
-    print('Ya, dia interger');
-  } else {
-    print('Tidak, dia bukan integer');
-  }
+  // if (a is int) {
+  //   print('Ya, dia interger');
+  // } else {
+  //   print('Tidak, dia bukan integer');
+  // }
 }

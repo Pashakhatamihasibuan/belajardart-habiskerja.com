@@ -17,16 +17,18 @@ void main(List<String> args) {
   print('$kota'); // dibolehkan, ini akan mengeluarkan print String 'null'
   */
 
-  String name;
-  print(name); // error
+  // String yang tidak dapat bernilai null
+  // String name;
+  //print(name); // error
 
-  String? name2;
-  name2 = 'Pasha';
+  // String yang dapat bernilai null
+  // String? name2;
+  // name2 = 'Pasha';
 
   // print(name2)
-  if (name2 == null) {
-    print('Nilai name2 is null');
-  } else {
-    print(name2);
-  }
+  // if (name2 == null) {
+  //   print('Nilai name2 is null');
+  // } else {
+  //   print(name2);
+  // }
 }
